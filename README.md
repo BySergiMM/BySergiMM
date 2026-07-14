@@ -1,8 +1,8 @@
 <h1 align="center">Sergi Martí</h1>
 
 <p align="center">
-  <b>Back-end &amp; multiplatform developer</b> · Barcelona, Spain 🇪🇸<br>
-  I build typed, tested, production-grade software — from REST &amp; MCP APIs to Android apps.
+  <b>Oracle Technical Consultant</b> · back-end &amp; mobile developer · Barcelona, Spain 🇪🇸<br>
+  Enterprise Oracle apps by day; typed, tested Python/FastAPI services and Android apps by night.
 </p>
 
 <p align="center">
@@ -14,39 +14,39 @@
 ---
 
 ```python
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 @dataclass
 class SergiMarti:
-    role: str          = "Back-end & Multiplatform Developer (DAM)"
-    location: str      = "Barcelona, Spain"
-    focus: tuple       = ("Python backends", "REST & MCP APIs", "Android / Kotlin", "automation")
-    currently_building = ("nim-key-manager", "algorithmic-trading bots")
-    learning: tuple    = ("distributed systems", "LLM tooling", "cloud-native ops")
-    principles: tuple  = ("Clean Architecture", "SOLID", "typed + tested", "ship to prod")
+    role: str         = "Oracle Technical Consultant @ Timestamp España"
+    location: str     = "Barcelona, Spain"
+    by_day: tuple     = ("PL/SQL", "Oracle Forms", "Oracle ERP", "Oracle Data Integrator")
+    by_night: tuple   = ("Python + FastAPI", "REST & MCP APIs", "Android / Kotlin", "automation")
+    building: tuple   = ("nim-key-manager", "algorithmic-trading bots")
+    principles: tuple = ("Clean Architecture", "SOLID", "typed + tested", "ship to prod")
 
     def say_hi(self) -> str:
-        return "Let's build something that actually runs in production."
+        return "Databases by day, production services by night."
 ```
 
 ### 🧰 Tech
 
+`Oracle` PL/SQL · Oracle Forms · Oracle ERP · Oracle Data Integrator · Oracle Database  
 `Backend` Python · FastAPI · ASP.NET / C# · Java  
 `Mobile` Kotlin · Android SDK  
-`Data` PostgreSQL · Oracle SQL · SQLAlchemy · Entity Framework  
-`DevOps` Docker · GitHub Actions · Render · Alembic · Linux  
-`Security & Ops` OAuth 2.1 · JWT · Prometheus · structured logging · pytest
+`Data` Oracle SQL · PostgreSQL · SQLAlchemy · Entity Framework  
+`DevOps` Docker · GitHub Actions · Render · Alembic · Linux
 
 <p>
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white">
+  <img src="https://img.shields.io/badge/PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white">
   <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
@@ -62,14 +62,7 @@ class SergiMarti:
 
 ### 💼 Experience
 
-- **Carrefour Viajes** — Sant Boi · Built the travel-agency website from scratch to publish trip offers; day-to-day CRM and records.
-- **VianiComputers** — Barcelona · Software support, system maintenance and hardware repair.
+**Oracle Technical Consultant** · **Timestamp España** — Nov 2024 → present  
+PL/SQL · Oracle Forms · Oracle ERP · Oracle Data Integrator · Oracle Database
 
-### 📊 GitHub
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=BySergiMM&show_icons=true&count_private=true&hide_border=true&theme=tokyonight">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BySergiMM&layout=compact&langs_count=8&hide_border=true&theme=tokyonight">
-</p>
-
-<sub>Beyond code: entrepreneurship, books (currently reading <i>Atomic Habits</i>), the gym, and traveling to see how the rest of the world builds things.</sub>
+<sub>🎓 Higher Diploma in Multiplatform Application Development (DAM) — Centre d'Estudis Politècnics · 2021–2024</sub>
