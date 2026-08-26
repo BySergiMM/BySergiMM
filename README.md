@@ -22,7 +22,7 @@ class SergiMarti:
     location: str     = "Barcelona, Spain"
     by_day: tuple     = ("PL/SQL", "Oracle Forms", "Oracle ERP", "Oracle Data Integrator")
     by_night: tuple   = ("Python + FastAPI", "REST & MCP APIs", "Android / Kotlin", "automation")
-    building: tuple   = ("nim-key-manager", "algorithmic-trading bots")
+    building: tuple   = ("nim-key-manager", "metac-bot-template", "comparadorsoftware")
     principles: tuple = ("Clean Architecture", "SOLID", "typed + tested", "ship to prod")
 
     def say_hi(self) -> str:
@@ -57,6 +57,8 @@ class SergiMarti:
 | Project | What it is |
 |---|---|
 | **[nim-key-manager](https://github.com/BySergiMM/nim-key-manager)** | Production **FastAPI** service to manage NVIDIA NIM API keys — AES-256-GCM encryption, assisted rotation, RBAC, audit, and a **Claude MCP connector** over OAuth 2.1. Docker + one-click Render deploy, ~94% test coverage. |
+| **[metac-bot-template](https://github.com/BySergiMM/metac-bot-template)** | AI forecasting bot for Metaculus' AI Forecasting Benchmark — cross-provider **LLM fallback** (OpenRouter/Gemini/Groq/Cerebras) with per-provider rate limiting, a publication-reliability layer that detects and retries orphaned forecasts, and an offline evaluation lab (190 tests) to score track record without touching production. |
+| **comparadorsoftware** _(private)_ | Multi-vertical software-comparison platform (**Next.js 15** + **Supabase** + **Prisma**) — one codebase serving 4 verticals via data-driven taxonomy, programmatic SEO (JSON-LD, dynamic sitemaps) and affiliate-link cloaking; built to scale to hundreds of thousands of indexed pages. |
 | **AutoTrading** _(private)_ | Algorithmic-trading experiments and bots in Python. |
 | **SchoolProjects** _(private)_ | Consolidated archive of my DAM coursework — Android (Kotlin), Java, C#/.NET and web. |
 
