@@ -33,9 +33,11 @@ class SergiMarti:
 
 `Oracle` PL/SQL · Oracle Forms · Oracle ERP · Oracle Data Integrator · Oracle Database  
 `Backend` Python · FastAPI · ASP.NET / C# · Java  
+`AI/LLM` OpenRouter · Gemini · Groq · Cerebras · MCP  
+`Frontend` Next.js · React · Tailwind CSS  
 `Mobile` Kotlin · Android SDK  
-`Data` Oracle SQL · PostgreSQL · SQLAlchemy · Entity Framework  
-`DevOps` Docker · GitHub Actions · Render · Alembic · Linux
+`Data` Oracle SQL · PostgreSQL · SQLAlchemy · Entity Framework · Prisma · Supabase  
+`DevOps` Docker · GitHub Actions · Render · Vercel · Alembic · Linux
 
 <p>
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white">
@@ -46,8 +48,14 @@ class SergiMarti:
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white">
   <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white">
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white">
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
 </p>
