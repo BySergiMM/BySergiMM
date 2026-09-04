@@ -2,13 +2,59 @@
 
 <p align="center">
   <b>Oracle Technical Consultant</b> · back-end &amp; mobile developer · Barcelona, Spain 🇪🇸<br>
-  Enterprise Oracle apps by day; typed, tested Python/FastAPI services and Android apps by night.
+  Enterprise Oracle apps by day; typed, tested Python/FastAPI services, Android apps and native macOS tools by night.
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/martisergi/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/martisergi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://ko-fi.com/seergiii"><img src="https://img.shields.io/badge/Ko--fi-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
+  <a href="https://github.com/sponsors/BySergiMM"><img src="https://img.shields.io/badge/Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
   <img src="https://komarev.com/ghpvc/?username=BySergiMM&style=for-the-badge&color=0a66c2&label=Profile+views" alt="Profile views">
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/BySergiMM/OmniMac"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/icon.png" width="110" alt="OmniMac"></a>
+</p>
+
+<h2 align="center">OmniMac — everything your Mac is missing</h2>
+
+<p align="center">
+  Seven Mac utilities in <b>one</b> lightweight, free, open-source menu-bar app:<br>
+  keep-awake · ⌘Tab by windows · a dynamic notch (music, AirDrop, calendar, per-app volume, timer, performance)<br>
+  window snapping &amp; saved layouts · clipboard history · OCR, colour picker, mic mute · sound.<br>
+  <b>0.017 % CPU and 50 MB of real memory at idle</b> · universal binary · macOS 14.2+ · no accounts, no telemetry.
+</p>
+
+<p align="center">
+  <a href="https://github.com/BySergiMM/OmniMac/releases/latest/download/OmniMac.pkg"><img src="https://img.shields.io/badge/Download%20OmniMac.pkg-5b5bd6?style=for-the-badge&logo=apple&logoColor=white" alt="Download"></a>
+  &nbsp;
+  <a href="https://bysergimm.github.io/OmniMac/"><img src="https://img.shields.io/badge/Website%20(es)-1d1d1f?style=for-the-badge" alt="Website"></a>
+  &nbsp;
+  <a href="https://github.com/BySergiMM/OmniMac"><img src="https://img.shields.io/badge/Source%20code-000?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/BySergiMM/OmniMac"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/notch-media.png" width="681" alt="OmniMac's notch expanded with the music tab"></a>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/notch-headphones.png" width="340" alt="AirPods connected"><br><sub>iPhone-style card when your AirPods connect</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/notch-sound.png" width="340" alt="Per-app volume"><br><sub>A different volume for every app</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/notch-tray.png" width="340" alt="Tray and AirDrop"><br><sub>Drop files, send them by AirDrop</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/notch-performance.png" width="340" alt="Performance"><br><sub>CPU, memory and network at a glance</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/BySergiMM/OmniMac/releases/latest"><img src="https://img.shields.io/github/v/release/BySergiMM/OmniMac?label=release&color=5b5bd6" alt="Release"></a>
+  <a href="https://github.com/BySergiMM/OmniMac/releases"><img src="https://img.shields.io/github/downloads/BySergiMM/OmniMac/total?label=downloads&color=5b5bd6" alt="Downloads"></a>
+  <a href="https://github.com/BySergiMM/OmniMac/stargazers"><img src="https://img.shields.io/github/stars/BySergiMM/OmniMac?style=flat&color=ffd60a" alt="Stars"></a>
+  <a href="https://github.com/BySergiMM/OmniMac/actions/workflows/build.yml"><img src="https://github.com/BySergiMM/OmniMac/actions/workflows/build.yml/badge.svg" alt="Build"></a>
 </p>
 
 ---
@@ -21,16 +67,17 @@ class SergiMarti:
     role: str         = "Oracle Technical Consultant @ Timestamp España"
     location: str     = "Barcelona, Spain"
     by_day: tuple     = ("PL/SQL", "Oracle Forms", "Oracle ERP", "Oracle Data Integrator")
-    by_night: tuple   = ("Python + FastAPI", "REST & MCP APIs", "Android / Kotlin", "automation")
-    building: tuple   = ("nim-key-manager", "metac-bot-template", "comparadorsoftware")
+    by_night: tuple   = ("Swift / SwiftUI", "Python + FastAPI", "REST & MCP APIs", "Android / Kotlin")
+    building: tuple   = ("OmniMac", "nim-key-manager", "metac-bot-template", "comparadorsoftware")
     principles: tuple = ("Clean Architecture", "SOLID", "typed + tested", "ship to prod")
 
     def say_hi(self) -> str:
-        return "Databases by day, production services by night."
+        return "Databases by day, production software by night."
 ```
 
 ### 🧰 Tech
 
+`macOS` Swift · SwiftUI · AppKit · CoreAudio · Accessibility APIs · Sparkle  
 `Oracle` PL/SQL · Oracle Forms · Oracle ERP · Oracle Data Integrator · Oracle Database  
 `Backend` Python · FastAPI · ASP.NET / C# · Java  
 `AI/LLM` OpenRouter · Gemini · Groq · Cerebras · MCP  
@@ -38,41 +85,3 @@ class SergiMarti:
 `Mobile` Kotlin · Android SDK  
 `Data` Oracle SQL · PostgreSQL · SQLAlchemy · Entity Framework · Prisma · Supabase  
 `DevOps` Docker · GitHub Actions · Render · Vercel · Alembic · Linux
-
-<p>
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white">
-  <img src="https://img.shields.io/badge/PL%2FSQL-F80000?style=flat-square&logo=oracle&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white">
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white">
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-</p>
-
-### 🚀 Featured
-
-| Project | What it is |
-|---|---|
-| **[nim-key-manager](https://github.com/BySergiMM/nim-key-manager)** | Production **FastAPI** service to manage NVIDIA NIM API keys — AES-256-GCM encryption, assisted rotation, RBAC, audit, and a **Claude MCP connector** over OAuth 2.1. Docker + one-click Render deploy, ~94% test coverage. |
-| **[metac-bot-template](https://github.com/BySergiMM/metac-bot-template)** | AI forecasting bot for Metaculus' AI Forecasting Benchmark — cross-provider **LLM fallback** (OpenRouter/Gemini/Groq/Cerebras) with per-provider rate limiting, a publication-reliability layer that detects and retries orphaned forecasts, and an offline evaluation lab (190 tests) to score track record without touching production. |
-| **comparadorsoftware** _(private)_ | Multi-vertical software-comparison platform (**Next.js 15** + **Supabase** + **Prisma**) — one codebase serving 4 verticals via data-driven taxonomy, programmatic SEO (JSON-LD, dynamic sitemaps) and affiliate-link cloaking; built to scale to hundreds of thousands of indexed pages. |
-| **AutoTrading** _(private)_ | Algorithmic-trading experiments and bots in Python. |
-| **SchoolProjects** _(private)_ | Consolidated archive of my DAM coursework — Android (Kotlin), Java, C#/.NET and web. |
-
-### 💼 Experience
-
-**Oracle Technical Consultant** · **Timestamp España** — Nov 2024 → present  
-PL/SQL · Oracle Forms · Oracle ERP · Oracle Data Integrator · Oracle Database
-
-<sub>🎓 Higher Diploma in Multiplatform Application Development (DAM) — Centre d'Estudis Politècnics · 2021–2024</sub>
