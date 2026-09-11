@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <b>0.017 % CPU and 33–37 MB of real memory at idle</b> · universal binary · macOS 14.2+ · no accounts, no telemetry.<br>
+  <b>0.017–0.033 % CPU and 33–37 MB of real memory at idle</b> · universal binary · macOS 14.2+ · no accounts, no telemetry.<br>
   It does the job of the seven utilities it replaces in your menu bar with <b>86 MB instead of 851 MB</b> (RSS, same Mac, same method).
 </p>
 
