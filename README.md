@@ -36,7 +36,7 @@
 <p align="center">
   <a href="https://github.com/BySergiMM/OmniMac/releases/latest/download/OmniMac.pkg"><img src="https://img.shields.io/badge/Download%20OmniMac.pkg-5b5bd6?style=for-the-badge&logo=apple&logoColor=white" alt="Download"></a>
   &nbsp;
-  <a href="https://bysergimm.github.io/OmniMac/en/"><img src="https://img.shields.io/badge/Website-1d1d1f?style=for-the-badge" alt="Website"></a>
+  <a href="https://bysergimm.github.io/OmniMac/"><img src="https://img.shields.io/badge/Website-1d1d1f?style=for-the-badge" alt="Website"></a>
   &nbsp;
   <a href="https://github.com/BySergiMM/OmniMac"><img src="https://img.shields.io/badge/Source%20code-000?style=for-the-badge&logo=github&logoColor=white" alt="Source"></a>
 </p>
