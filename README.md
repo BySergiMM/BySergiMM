@@ -1,8 +1,8 @@
 <h1 align="center">Sergi Martí</h1>
 
 <p align="center">
-  <b>Oracle Technical Consultant</b> · back-end &amp; mobile developer · Barcelona, Spain 🇪🇸<br>
-  Enterprise Oracle apps by day; typed, tested Python/FastAPI services, Android apps and native macOS tools by night.
+  <b>Software developer</b> · macOS apps, back end and AI tools · Barcelona, Spain 🇪🇸<br>
+  Enterprise Oracle apps by day; native macOS tools, Python services and AI agents by night.
 </p>
 
 <p align="center">
@@ -44,16 +44,6 @@
   <a href="https://github.com/BySergiMM/OmniMac"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/en/notch-media.png" width="681" alt="OmniMac's notch expanded with the music tab"></a>
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/en/notch-performance.png" width="340" alt="Performance"><br><sub>Per-core CPU, GPU, memory and network</sub></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/en/notch-sound.png" width="340" alt="Per-app volume"><br><sub>A different volume for every app</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/en/notch-tray.png" width="340" alt="Tray and AirDrop"><br><sub>Drop files, send them by AirDrop</sub></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/BySergiMM/OmniMac/main/docs/site/img/en/notch-headphones.png" width="340" alt="AirPods connected"><br><sub>iPhone-style card when your AirPods connect</sub></td>
-  </tr>
-</table>
 
 <p align="center">
   <a href="https://github.com/BySergiMM/OmniMac/releases/latest"><img src="https://img.shields.io/github/v/release/BySergiMM/OmniMac?label=release&color=5b5bd6" alt="Release"></a>
@@ -61,6 +51,25 @@
   <a href="https://github.com/BySergiMM/OmniMac/stargazers"><img src="https://img.shields.io/github/stars/BySergiMM/OmniMac?style=flat&color=ffd60a" alt="Stars"></a>
   <a href="https://github.com/BySergiMM/OmniMac/actions/workflows/build.yml"><img src="https://github.com/BySergiMM/OmniMac/actions/workflows/build.yml/badge.svg" alt="Build"></a>
 </p>
+
+
+<br>
+
+<h3 align="center">What I'm building now</h3>
+
+<table align="center">
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/BySergiMM/holdcall">holdcall</a></b> · Go<br>
+      <sub>A local guard for AI agents. It sits between Claude Code, Cursor or Claude Desktop and their MCP tools, holds risky calls until you approve them, keeps API keys in the system keychain instead of plain text configs, and writes every decision to a tamper evident log you can verify offline.</sub><br>
+      <sub><a href="https://holdcall.vercel.app">holdcall.vercel.app</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/BySergiMM/metac-bot-template">Metaculus forecasting bot</a></b> · Python<br>
+      <sub>An LLM agent that forecasts real world questions on its own in Metaculus' AI tournaments. Five forecasts per question spread across Claude, Gemini and open models, with fallbacks when a provider fails. Finished 88th of 192 bots in its first season and is now competing in the Fall 2026 season.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -72,8 +81,8 @@ class SergiMarti:
     role: str         = "Oracle Technical Consultant @ Timestamp España"
     location: str     = "Barcelona, Spain"
     by_day: tuple     = ("PL/SQL", "Oracle Forms", "Oracle ERP", "Oracle Data Integrator")
-    by_night: tuple   = ("Swift / SwiftUI", "Python + FastAPI", "REST & MCP APIs", "Android / Kotlin")
-    building: tuple   = ("OmniMac", "nim-key-manager", "metac-bot-template", "comparadorsoftware")
+    by_night: tuple   = ("Swift / SwiftUI", "Python + FastAPI", "Go", "LLM agents & MCP")
+    building: tuple   = ("OmniMac", "holdcall", "metac-bot-template")
     principles: tuple = ("Clean Architecture", "SOLID", "typed + tested", "ship to prod")
 
     def say_hi(self) -> str:
@@ -84,8 +93,8 @@ class SergiMarti:
 
 `macOS` Swift · SwiftUI · AppKit · CoreAudio · IOKit · Accessibility APIs · Sparkle  
 `Oracle` PL/SQL · Oracle Forms · Oracle ERP · Oracle Data Integrator · Oracle Database  
-`Backend` Python · FastAPI · ASP.NET / C# · Java  
-`AI/LLM` OpenRouter · Gemini · Groq · Cerebras · MCP  
+`Backend` Python · FastAPI · Go · ASP.NET / C# · Java  
+`AI/LLM` Claude · Gemini · OpenRouter · Groq · MCP · evals  
 `Frontend` Next.js · React · Tailwind CSS  
 `Mobile` Kotlin · Android SDK  
 `Data` Oracle SQL · PostgreSQL · SQLAlchemy · Entity Framework · Prisma · Supabase  
