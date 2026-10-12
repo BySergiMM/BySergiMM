@@ -9,7 +9,6 @@
   <a href="https://www.linkedin.com/in/martisergi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://ko-fi.com/seergiii"><img src="https://img.shields.io/badge/Ko--fi-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi"></a>
   <a href="https://github.com/sponsors/BySergiMM"><img src="https://img.shields.io/badge/Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <img src="https://komarev.com/ghpvc/?username=BySergiMM&style=for-the-badge&color=0a66c2&label=Profile+views" alt="Profile views">
 </p>
 
 <br>
